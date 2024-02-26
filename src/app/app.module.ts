@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { SkillsetsComponent } from './components/skillsets/skillsets.component';
 import { StdTableComponent } from './components/std-table/std-table.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { TabComponent } from './components/tab/tab.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PostsComponent } from './components/posts/posts.component';
     ProductsComponent,
     SkillsetsComponent,
     StdTableComponent,
-    PostsComponent
+    PostsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,

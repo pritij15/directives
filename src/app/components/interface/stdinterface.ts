@@ -4,3 +4,8 @@ export interface Istd {
     email : string,
     contact : number
 }
+
+export interface Iskill {
+    skillName : string,
+    content : string
+}
