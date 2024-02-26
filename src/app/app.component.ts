@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directives';
+
+  skills = ["HTML", "CSS", "JS", "ANGULAR"]
+
 }
